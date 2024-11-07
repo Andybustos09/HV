@@ -1,0 +1,108 @@
+ div {
+	border-radius: 5px;
+}
+
+#encabezado {
+	z-index: 1;
+	position: fixed;
+	background-color:Blue;
+	width: 97%;
+	height: 60px;
+	border: rgb(17, 44, 238);
+	font-family: "Sofia", sans-serif;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.izquierda {
+	float: left;
+	background-color: rgb(222, 49, 99);
+	width: 20%;
+	height: 350px;
+	margin-top: 55px;
+	margin-bottom: 10px;
+	border: 2px groove white;
+}
+
+.derecha {
+	float: right;
+	background-color: rgb(255, 165, 0);
+	width: 78%;
+	height: 350px;
+	margin-top: 55px;
+	margin-bottom: 10px;
+	border: 2px groove white;
+}
+
+#pie {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	clear: both;
+	background-color: rgb(17, 238, 34);
+	width: 100%;
+	height: 60px;
+	border: 2px groove white;
+	font-family: Times;
+}
+
+#email {
+	float: right;
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+}
+
+#email:hover {
+	font-weight: bold;
+	color: blue;
+}
+
+#name {
+	float: left;
+	font-weight: bold;
+	color: rgb(238, 238, 17 ;
+	font-size: 1.5em;
+	margin: 22px 10px 10px 10px;
+}
+
+#name:hover {
+	color: white;
+}
+
+.content {
+	margin: 10px;
+}
+
+h4 {
+	color: lightSkyBlue;
+}
+
+#direccion {
+	text-align: center;
+	color: lightSkyBlue;
+}
+
+span:hover {
+	color: gray;
+	font-weight: bold;
+}
+
+ol {
+	list-style: none;
+	margin: 20px 0 0 -20px;
+	color: rgb(64, 224, 208);
+	font-size: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(230, 230, 230);
+}
+
+a:active {
+	color: darkred;
+}
+
+#margen-top {
+	margin-top: 12px;
+}
